@@ -3,7 +3,7 @@ import reactLogo from "../../assets/react.svg";
 
 const Navbar = () => {
   return (
-    <div className=" border-b pb-2">
+    <div className=" border-b pb-3">
       <div className="mx-20 flex justify-between items-center mt-[20px]">
         <div className="logo">
           <a href="https://react.dev" target="_blank">
