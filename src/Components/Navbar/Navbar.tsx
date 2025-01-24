@@ -5,9 +5,12 @@ const Navbar = () => {
   return (
     <div className=" border-b pb-3">
       <div className="mx-20 flex justify-between items-center mt-[20px]">
-        <div className="logo">
+        <div className="logo flex gap-4 items-center">
           <a href="https://react.dev" target="_blank">
             <img src={reactLogo} className="logo react" alt="React logo" />
+          </a>
+          <a href="#" className="text-gray-100 hover:text-gray-200 ">
+            ReactDevs
           </a>
         </div>
         <div className="flex items-center">
